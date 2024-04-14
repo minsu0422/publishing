@@ -1,0 +1,33 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 100px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.contain {
+  display: flex;
+  justify-content: center;
+}
+
+.write {
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+}
+
+.fa-solid {
+  font-size: 50px;
+  padding-bottom: 10px;
+}

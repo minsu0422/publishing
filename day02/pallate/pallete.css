@@ -1,0 +1,38 @@
+.pallet {
+  width: 1000px;
+  height: 400px;
+
+  display: flex;
+  /* flex-direction: 자식의 방향[가로(row) or 세로(column)]*/
+  /*flex-direction: column;*/
+
+  /* main(좌우)축으로 정렬 
+  justify-content: center; */
+
+  /* cross(상하)축으로 정렬
+  align-items: center; */
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+}
+.red {
+  background-color: #ff7979;
+}
+
+.blue {
+  background-color: #ffbe76;
+}
+
+.green {
+  background-color: #f6e58d;
+}
+
+.puple {
+  background-color: #c7ecee;
+}
+
+.pink {
+  background-color: #535c68;
+}

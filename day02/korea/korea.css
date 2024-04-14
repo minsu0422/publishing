@@ -1,0 +1,26 @@
+.contain {
+  display: flex;
+  flex-direction: column;
+}
+
+.icons__box {
+  display: flex;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  padding: 3px 15px 3px 15px;
+}
+
+.image {
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.font {
+  font-weight: bold;
+  font-size: 10px;
+  padding-top: 10px;
+}

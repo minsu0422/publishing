@@ -1,0 +1,11 @@
+https://fontawesome.com/icons/user?f=classic&s=solid
+->이모지 사이트
+
+https://cssgenerator.org/box-shadow-css-generator.html
+-> box shadow generator사이트 (하고자하는 박스 쉐도우를 css로 나타내줌)
+
+https://flatuicolors.com/palette/tr
+-> 다양한 색상을 확인하는 사이트
+
+https://meyerweb.com/eric/tools/css/reset/
+->css툴로 사이트의 공백을 제거해줄 수 있는 css임!

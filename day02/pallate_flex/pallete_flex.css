@@ -1,0 +1,222 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.pallet1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /*자식들이 균등하게 자리 차지하는 CSS*/
+}
+
+.pallet2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.pallet3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.pallet4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+}
+.a {
+  background-color: #cd84f1;
+}
+.b {
+  background-color: #ffcccc;
+}
+.c {
+  background-color: #ff4d4d;
+}
+.d {
+  background-color: #ffaf40;
+}
+.e {
+  background-color: #fffa65;
+}
+.f {
+  background-color: #c56cf0;
+}
+.g {
+  background-color: #ffb8b8;
+}
+.h {
+  background-color: #ff3838;
+}
+.i {
+  background-color: #ff9f1a;
+}
+.j {
+  background-color: #fff200;
+}
+.k {
+  background-color: #32ff7e;
+}
+.l {
+  background-color: #7efff5;
+}
+.m {
+  background-color: #18dcff;
+}
+.n {
+  background-color: #7d5fff;
+}
+.o {
+  background-color: #4b4b4b;
+}
+.p {
+  background-color: #3ae374;
+}
+.q {
+  background-color: #67e6dc;
+}
+.r {
+  background-color: #17c0eb;
+}
+.s {
+  background-color: #7158e2;
+}
+.t {
+  background-color: #3d3d3d;
+}
