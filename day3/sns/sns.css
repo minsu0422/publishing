@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Freesentation-9Black";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2")
+    format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TAEBAEKmilkyway";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/TAEBAEKmilkyway.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+.main {
+  width: 300px;
+  height: 600px;
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.button {
+  border-radius: 40px;
+  background-color: white;
+  padding: 15px 80px;
+  margin-top: 20px;
+  font-family: "Freesentation-9Black";
+  font-size: 20px;
+  width: 40%;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.5s;
+}
+.button:hover {
+  background-color: #fdaaac;
+}
+
+.image {
+  margin-top: 25px;
+  display: flex;
+  gap: 20px;
+  color: white;
+  font-size: 28px;
+  transition: all 0.5s;
+}
+
+.button:hover {
+  filter: brightness(0.78);
+}
+.imgbutton {
+  transition: all 0.5s;
+}
+.imgbutton:hover {
+  filter: brightness(0.78);
+}
+.img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+
+.font {
+  font-family: "Freesentation-9Black";
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.font_2 {
+  font-family: "TAEBAEKmilkyway";
+  font-size: 13px;
+
+  color: #efefef;
+  text-align: center;
+  margin-top: 10px;
+  padding-bottom: 15px;
+  font-weight: 700;
+}
+
+.Spotify:hover {
+  background-color: green;
+}
+
+.imgbutton > fa-spotify:hover {
+  color: green;
+}

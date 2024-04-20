@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "JalnanGothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  width: 280px;
+  height: 380px;
+  border-radius: 12px;
+  background-image: url(relax-2085676_640.jpg);
+  background-size: cover;
+  padding: 10px;
+  filter: brightness(1.07);
+  transition: all 0.5s;
+}
+
+.card:hover {
+  filter: brightness(0.92);
+}
+.amanda:hover {
+  filter: brightness(0.92);
+}
+.village:hover {
+  filter: brightness(0.92);
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+
+.category {
+  font-family: "Pretendard-Regular";
+  font-size: 15px;
+  border-bottom: 1px solid white;
+  padding-bottom: 1px;
+  width: fit-content;
+}
+
+.title {
+  font-family: "JalnanGothic";
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.desc {
+  font-family: "Pretendard-Regular";
+  font-size: 18px;
+}
+
+.village {
+  width: 280px;
+  height: 380px;
+  border-radius: 12px;
+  background-image: url(pool-villa-4956750_640.jpg);
+  background-size: cover;
+  padding: 10px;
+  filter: brightness(1.07);
+  transition: all 0.5;
+}
+
+.amanda {
+  width: 280px;
+  height: 380px;
+  border-radius: 12px;
+  background-image: url(house-6145948_640.jpg);
+  background-size: cover;
+  padding: 10px;
+  filter: brightness(1.07);
+  transition: all 0.5;
+}

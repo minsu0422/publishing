@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Freesentation-9Black";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2404@1.0/Freesentation-9Black.woff2")
+    format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/*전체 적용*/
+* {
+  font-family: "Freesentation-9Black";
+}
+.container {
+  width: 350px;
+  height: 600px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 10px;
+  align-items: center;
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.image > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  /* 사진 위치 조정 css
+  object-position: x축 y축 center;
+  */
+  font-weight: 700;
+}
+
+.introduce {
+  text-align: center;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.button:hover {
+  background-color: yellow;
+}

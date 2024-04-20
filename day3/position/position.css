@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.up {
+  display: flex;
+}
+.down {
+  display: flex;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+}
+
+.green {
+  background-color: #2ecc71;
+}
+.green > span {
+  /*relative는 자신의 기준으로 움직임*/
+  position: relative;
+  left: 10px;
+  top: 10px;
+}
+.blue {
+  background-color: #3498db;
+}
+
+.blue > span {
+  /*absolute는 웹 사이트 기준으로 움직임*/
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+.orange {
+  background-color: #e67e22;
+}
+.orange > span {
+  /*기본으로 정해져 있는 포지션(위치) -> position: static;*/
+
+  /* fixed는 스크롤해도 따라오게 위치지정하는 것임*/
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.purple {
+  background-color: #9b59b6;
+}
+
+.purple > span {
+  /*같이 따라 내려감*/
+  position: sticky;
+  top: 100px;
+}
