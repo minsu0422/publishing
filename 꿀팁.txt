@@ -9,3 +9,9 @@ https://flatuicolors.com/palette/tr
 
 https://meyerweb.com/eric/tools/css/reset/
 ->css툴로 사이트의 공백을 제거해줄 수 있는 css임!
+
+https://fonts.google.com/?subset=korean
+-> 다양한 폰트를 볼수 있는 사이트
+
+https://webgradients.com/
+-> 그라데이션 사이트
